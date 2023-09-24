@@ -1,6 +1,0 @@
-function love.draw()
-  water_tiles:draw()
-  love.graphics.draw(ground_tiles)
-  tree.sprite:draw(tree.x, tree.y)
-  tree.sprite:draw_reflection(tree.x, tree.y)
-end
